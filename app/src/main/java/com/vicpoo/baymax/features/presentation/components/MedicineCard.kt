@@ -134,7 +134,6 @@ fun MedicineCard(
 
                     Spacer(modifier = Modifier.height(8.dp))
 
-                    // Indicador de receta
                     Surface(
                         modifier = Modifier
                             .clip(MaterialTheme.shapes.small)

@@ -418,7 +418,6 @@ fun MedicineDialog(
                     }
                 }
 
-                // Botones de acción
                 Row(
                     modifier = Modifier
                         .fillMaxWidth()

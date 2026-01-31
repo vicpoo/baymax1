@@ -113,7 +113,7 @@ fun MedicineScreen(viewModel: MedicineViewModel) {
                 Box(
                     modifier = Modifier
                         .fillMaxSize()
-                        .clip(CircleShape) // Usar CircleShape aquí también
+                        .clip(CircleShape)
                         .background(
                             Brush.horizontalGradient(
                                 colors = listOf(
@@ -148,7 +148,6 @@ fun MedicineScreen(viewModel: MedicineViewModel) {
                     )
                 )
         ) {
-            // Barra de búsqueda flotante
             if (isSearching) {
                 Box(
                     modifier = Modifier
@@ -379,7 +378,6 @@ fun MedicineScreen(viewModel: MedicineViewModel) {
                 }
             }
 
-            // Diálogos
             if (showAddDialog) {
                 MedicineDialog(
                     title = "NUEVO MEDICAMENTO",
